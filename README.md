@@ -5,8 +5,7 @@ Using [TensorFlow.js](http://js.tensorflow.org) to train data and predict number
 The training script is taken from [tfjs-example](https://github.com/tensorflow/tfjs-examples).
 
 ### Preview
-![Preview 1](http://kanojo.ml:8527/ai/preview1.jpg)
-![Preview 2](http://kanojo.ml:8527/ai/preview2.jpg)
+[screencast-dabuside_github_io-2024_07_09-18_27_54.webm](https://github.com/dabuside/K/assets/7280952/cdc8e1b3-a86e-4066-a837-f9da66ad3287)
 
 ## Get Started
 ```
@@ -20,8 +19,7 @@ yarn watch
 yarn build
 ```
 
-
-[Online demo](http://kanojo.ml:8527/ai/)
+[Online demo](https://dabuside.github.io/K/)
 
 ### Tips
 
