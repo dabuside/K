@@ -14,8 +14,7 @@
   },
   "scripts": {
     "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./",
-    "postinstall": "yarn upgrade --pattern @tensorflow"
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./ && cp ./mnist_images.png ./dist/mnist_images.png & cp ./mnist_labels_uint8 ./dist/mnist_labels_uint8"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "~6.23.0",
